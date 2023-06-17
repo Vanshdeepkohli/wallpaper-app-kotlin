@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Wallpapers" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/light_orange</item>
+    </style>
+
+    <style name="Theme.Wallpapers" parent="Base.Theme.Wallpapers" />
+
+    <style name="ShapeAppearanceOverlay.ShapableImageView" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+</resources>
